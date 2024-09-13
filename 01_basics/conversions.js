@@ -27,10 +27,31 @@ console.log(valueINNumber);*/
 //let booleanisLogedIn = Boolean(isLogedIn)
 //console.log(booleanisLogedIn);
 
-let someNumber = 33
+// let someNumber = 33
 
-let stringNumber = String(someNumber) // syntax to change string.
-console.log(typeof stringNumber);
+// let stringNumber = String(someNumber) // syntax to change string.
+// console.log(typeof stringNumber);
+
+// ********************************OPERATIONS******************************************
+
+let value = 3
+let negvalue = -value 
+//console.log(negvalue);
+
+// let str1 = "hello"
+// let str2 = " hitesh"
+
+// let str3 = str1 + str2 
+// console.log(str3);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + "2"); 
+
+
+
+
+
 
 
 
