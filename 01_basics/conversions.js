@@ -44,9 +44,60 @@ let negvalue = -value
 // let str3 = str1 + str2 
 // console.log(str3);
 
-console.log("1" + 2);
-console.log(1 + "2");
-console.log("1" + 2 + "2"); 
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + "2"); 
+
+let gameCounter = 100
+++gameCounter
+console.log(gameCounter)
+
+// prefix and postfix read -> MDN document 
+
+//comparisons :-
+console.log("2" > 1); // here comparisions btw two diffrent datatypes are being done
+console.log("02" > 1 );// here 2 has been converted into number.
+
+console.log(null > 0 );
+console.log(null == 0);
+/*o/p will be false
+== operator performs type coersion before performing comparision i.e 
+converts into  the same type.
+
+so while comparing null to any other value other than undefined will result in false 
+result 
+*/
+console.log(null >= 0);
+
+// In JS Null is converted into 0 while doing conversions
+
+console.log(undefined == 0);
+
+// === ( just only does not apply comparison but also checks the datatype which)
+
+
+/***********************datatypes******************/
+
+// 7 types : String , Number , Null , Boolean, undefined, symbol, BigInt
+
+// Non primitive datatype
+
+// arrays , objects, functions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
