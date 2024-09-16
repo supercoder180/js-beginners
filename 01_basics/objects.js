@@ -8,7 +8,7 @@ const Jsuser = {
     age : 18,
     location: "Mumbai",
     email: "hitesh@google.com",
-    mySym :"mykey1",
+    [mySym] :"mykey1",
     isLoggedIn: false,
     lasLoginDays: ["Monday", "Sunday"] // can be passed as array as well
 
