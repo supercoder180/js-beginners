@@ -41,7 +41,39 @@ function  loginUserMessage (username = "Nike"){
 }
 //loginUserMessage("hitesh") // function is called but for the function we have not enabled any console.log inorder to print the same 
 
-console.log(loginUserMessage("Reece"));
+//console.log(loginUserMessage("Reece"));
+
+/***************************************************************************************/
+
+function CalculateCartPrice (val1, val2, ...num1){ // rest operator is being used (...)
+    return num1
+
+}
+console.log(CalculateCartPrice(200, 400, 500, 600, 700))// lot of values are being passed.
+
+// how to pass objects in Function.
+
+const user ={
+    username:"hitesh",
+    price:199
+}
+
+function handleObject(anyobject){
+    //console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+// How to pass array in a function.
+
+const myNewArray = [200, "1", 300, 400]
+
+function  returnSecondvalue(getarray){
+    return getarray[1] // Here myNewArray was not written coz we will have to look what is being passed in the paramters of the function.
+
+}
+
+console.log(returnSecondvalue(myNewArray));
+
+
 
 
 
