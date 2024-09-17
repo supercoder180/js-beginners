@@ -32,5 +32,17 @@ function addTwoNumbers(number1, number2){
     return number1 + number2
 }
 
-function  
+function  loginUserMessage (username = "Nike"){
+    if(username === undefined) {
+        console.log("Please enter a username");
+        return 
+    }
+    return `${username} just logged in`
+}
+//loginUserMessage("hitesh") // function is called but for the function we have not enabled any console.log inorder to print the same 
+
+console.log(loginUserMessage("Reece"));
+
+
+
 
