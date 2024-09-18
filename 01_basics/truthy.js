@@ -15,6 +15,9 @@ checkValue(NaN)
 checkValue([]);
 checkValue({});
 
+// falsy values :- false, 0 , "", null, undefined, NaN
+
+// Note : Apart from all the falsy values all other values are considered as truthy values.
 
 
 
